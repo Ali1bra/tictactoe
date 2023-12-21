@@ -4,7 +4,7 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(79, 75, 62);
+    background-color: rgb(48, 48, 48);
     user-select: none;
 }
 
@@ -20,7 +20,7 @@ h1{
     font-size: 50px;
     text-transform: uppercase;
     font-family: 'Lilita One', sans-serif;
-    color: #2d241a;
+    color: white;
 
 }
 .reset{
@@ -31,8 +31,9 @@ h1{
     border-radius: 50px;
     border: 1px solid #2d241a;
     box-shadow:  1px 0px 15px;
-    color: #201a13;
+    color: white;
     transition: 0.2s;
+    background-color: #6c6b6a;
     
 }
 
@@ -50,7 +51,7 @@ h1{
     background-color: rgba(255, 0, 0, 0);
     display: flex;
     flex-wrap: wrap;
-    box-shadow:  1px 0px 35px #201a13;
+    box-shadow:  1px 0px 35px #ffffff;
     border-radius: 25px;
     
 }
@@ -59,13 +60,13 @@ h1{
     width: 150px;
     aspect-ratio: 1;
     background-color: rgba(0, 0, 255, 0);
-    border: 1px solid #2d241a;
+    border: 1px solid #ffffff;
     font-size: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 100;
-    color: #1d1710;
+    color: #403b34;
     transition: 0.2s;
     
 }
