@@ -27,13 +27,12 @@ h1{
     margin-bottom: 50px;
     padding: 5px 20px;
     text-transform: uper;
-    background-color: rgba(0, 0, 0, 0);
     border-radius: 50px;
-    border: 1px solid #2d241a;
+    border: 1px solid white;
     box-shadow:  1px 0px 15px;
     color: white;
     transition: 0.2s;
-    background-color: #6c6b6a;
+    background-color: rgba(0, 0, 255, 0);
     
 }
 
@@ -66,7 +65,7 @@ h1{
     align-items: center;
     justify-content: center;
     z-index: 100;
-    color: #403b34;
+    color: #1a1815;
     transition: 0.2s;
     
 }
