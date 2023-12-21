@@ -38,8 +38,6 @@ box.forEach(b => {
 
 
 reset.addEventListener('click', () => {
-    box.forEach(b => {
-        b.innerHTML = '';
-    })
+    location.reload();
 })
 
