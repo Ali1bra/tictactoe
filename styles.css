@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(79, 75, 62);
+    user-select: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Lilita One', sans-serif;
+    color: #2d241a;
+
+}
+.reset{
+    margin-bottom: 50px;
+    padding: 5px 20px;
+    text-transform: uper;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    border: 1px solid #2d241a;
+    box-shadow:  1px 0px 15px;
+    color: #201a13;
+    transition: 0.2s;
+    
+}
+
+.reset:hover{
+    box-shadow:  1px 0px 20px;
+    padding: 5px 25px;
+
+
+
+
+}
+.surface{
+    height: 454px;
+    width: 454px;
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow:  1px 0px 35px #201a13;
+    border-radius: 25px;
+    
+}
+
+.box{
+    width: 150px;
+    aspect-ratio: 1;
+    background-color: rgba(0, 0, 255, 0);
+    border: 1px solid #2d241a;
+    font-size: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    color: #1d1710;
+    transition: 0.2s;
+    
+}
+
+.right{
+    border-right: none;
+
+}
+
+.left{
+    border-left: none;
+}
+
+.bottom{
+    border-bottom: none;
+}
+
+.round1{
+    border-top-left-radius: 25px;
+}
+.round2{
+    border-top-right-radius: 25px;
+}
+.round3{
+    border-bottom-left-radius: 25px;
+}
+.round4{
+    border-bottom-right-radius: 25px;
+}
+
+.shift{
+    background-color:   blue;
+
+}
