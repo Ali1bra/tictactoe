@@ -19,6 +19,7 @@ box.forEach(b => {
         if (!b.innerHTML.trim()) { // Tjekker om innerHTML er tomt
             if (shift.style.backgroundColor === 'red') {
                 b.innerHTML = 'X';
+                b.style.color = 'white';
                 shift.style.backgroundColor = 'blue'; // Ændrer baggrundsfarven til blå (eller din ønskede farve)
             } else {
                 b.innerHTML = 'O';
