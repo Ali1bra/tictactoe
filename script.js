@@ -26,11 +26,6 @@ box.forEach(b => {
                 shift.style.backgroundColor = 'red'; // Ændrer baggrundsfarven til rød
             }
         }
-        
-        if (one.innerHTML === 'X') {
-            console.log('hej');
-        }
-       
     });
 
     
