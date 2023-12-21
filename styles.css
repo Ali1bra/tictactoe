@@ -21,7 +21,6 @@ h1{
     text-transform: uppercase;
     font-family: 'Lilita One', sans-serif;
     color: white;
-
 }
 .reset{
     margin-bottom: 50px;
@@ -99,4 +98,30 @@ h1{
 .shift{
     background-color:   blue;
 
+}
+
+@media only screen and (max-width: 600px) {
+    .box{
+        width: 125px;
+        height: 125px;
+
+        
+    }
+    .surface{
+        height: 379px;
+        width: 379px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .box{
+        width: 110px;
+        height: 110px;
+
+        
+    }
+    .surface{
+        height: 334px;
+        width: 334px;
+    }
 }
